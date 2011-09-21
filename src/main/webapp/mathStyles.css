@@ -1,0 +1,76 @@
+@CHARSET "UTF-8";
+
+/* math style */
+h2 {
+	font-family: "Trebuchet MS", "Arial";
+	font-size: 14pt
+}
+
+p,td,.normal {
+	font-family: "Trebuchet MS", "Arial";
+	font-size: 10pt;
+}
+
+.question {
+	font-family: "Trebuchet MS", "Arial";
+	color:#ff9922;
+	font-size:40pt;
+	padding:5px;
+	vertical-align:middle; 
+}
+
+.grid {
+	border:1px solid #b0b0b0; 
+	margin:auto
+}
+
+.empty {
+	font-family: "Trebuchet MS", "Arial";
+	text-align:center;
+	color:#a0a0a0;
+	height:25px;
+	width:25px
+}
+
+.wrong {
+	font-family: "Trebuchet MS", "Arial";
+	background-color:#ff0000;
+	text-align:center;
+	height:25px;
+	width:25px
+}
+
+.good {
+	font-family: "Trebuchet MS", "Arial";
+	background-color:#ff8800;
+	text-align:center;
+	height:25px;
+	width:25px
+}
+
+.better {
+	font-family: "Trebuchet MS", "Arial";
+	background-color:#ffee00;
+	text-align:center;
+	height:25px;
+	width:25px
+}
+
+.best {
+	font-family: "Trebuchet MS", "Arial";
+	background-color:#a0ffa0;
+	text-align:center;
+	height:25px;
+	width:25px 
+}
+
+.status {
+	font-family: "Trebuchet MS", "Arial";
+	font-size: 10pt;
+}
+
+.footer {
+	font-family: "Trebuchet MS", "Arial";
+	font-size: 8pt;
+	color: grey
+}

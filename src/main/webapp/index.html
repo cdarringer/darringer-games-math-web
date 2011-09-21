@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<title>Welcome to Frania's Math Game!</title>
+		<link rel="stylesheet" type="text/css" href="mathStyles.css" />
+	</head>
+	<body>
+		<center>
+			<h2>Welcome to Math-o-Matic!</h2>
+			<img src="images/math.gif" width="200" height="200" />
+			<p> 
+			Designed with help from Frances Mary Darringer at PS 334 
+			<br /> 
+			for practicing common addition, subtraction, multiplication, and division problems.  
+			</p>
+			<form method="GET" action="MathServlet">
+				<p>
+				What would you like to practice?
+				</p>
+				<p>
+					<input type="radio" name="type" value="Addition" /> Addition
+				</p>
+				<p>
+					<input type="radio" name="type" value="Subtraction" /> Subtraction
+				</p>
+				<p>
+					<input type="radio" name="type" value="Multiplication" checked /> Multiplication
+				</p>
+				<p>
+					<input type="radio" name="type" value="Division" /> Division
+				</p>
+				<p>
+				Would you like to see the questions in order or scrambled?
+				</p>
+				<p>
+					<input type="radio" name="order" value="Scrambled" checked /> I'm feeling lucky - scramble!
+				</p>
+				<p>
+					<input type="radio" name="order" value="Ordered" /> In order please!
+				<p>
+				<p>
+					<input name="action" type="hidden" value="new" />
+					<input type="submit" value="Let's Play!" />
+				</p>				
+			</form>
+		</center>
+	</body>
+</html>
