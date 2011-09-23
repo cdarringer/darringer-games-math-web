@@ -7,6 +7,27 @@
   <version>1.0-SNAPSHOT</version>
   <name>darringer-games-math-web Maven Webapp</name>
   <url>http://maven.apache.org</url>
+
+  <organization>
+    <name>darringer</name>
+    <url>http://www.darringer.com</url>
+  </organization>
+
+  <developers>
+    <developer>
+      <id>cdarringer</id>
+      <name>Chris Darringer</name>
+      <email>cdarringer@yahoo.com</email>
+      <url>http://www.darringer.com</url>
+      <organization>darringer</organization>
+      <organizationUrl>http://www.darringer.com</organizationUrl>
+      <roles>
+        <role>developer</role>
+      </roles>
+      <timezone>-6</timezone>
+    </developer>
+  </developers>
+
   <dependencies>
     <dependency>
       <groupId>log4j</groupId>
